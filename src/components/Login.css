@@ -1,0 +1,138 @@
+.screen{
+    height: 500px;
+    width:700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 70px auto;
+    border-radius: 15px;
+    border: 10px solid rgb(44, 94, 148);
+    gap:20px;
+    color:rgb(44, 94, 148);
+}
+
+@media screen and (max-width: 750px) {
+    .screen {
+      width: 270px;
+    }
+  }
+
+h2{
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+
+
+.input{
+    padding:10px;
+    width: 300px;
+}
+
+@media screen and (max-width: 750px) {
+    .input {
+      width: 200px;
+    }
+  }
+
+
+.button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(44, 94, 148);
+    color:white;
+    border: none;
+}
+
+h4{
+    text-align: center;
+}
+
+.signup{
+    border-bottom: 3px solid rgb(44, 94, 148);
+    cursor: pointer;
+    padding: 2px;
+}
+
+.forgot{
+    border-bottom: 3px solid rgb(44, 94, 148);
+    text-align: center;
+    width: max-content;
+    padding: 3px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.profile{
+    margin-top: 30px;
+    height:150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 750px) {
+    .profile {
+      width:125px;
+    }
+  }
+
+.actions{
+    margin-top: 30px;
+    display: flex;
+    gap:30px;
+}
+
+.name{
+    font-size: 25px;
+    margin:0px 30px;
+    text-align: center;
+}
+
+.upload{
+    display: none;
+}
+
+.custom-file-upload{
+    cursor: pointer;
+}
+
+.uploadImage{
+    border-radius: 30px;
+}
+
+.edit{
+    margin-top: 50px;
+}
+
+.arrow{
+    top:30px;
+    position: relative;
+    right:40%;
+    color:white;
+    padding:5px;
+    border-radius: 20px;
+    background-color:rgb(44, 94, 148); 
+    cursor: pointer;
+}
+
+
+.download{
+    margin-left: 10px;
+    position: fixed;
+    top:10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
